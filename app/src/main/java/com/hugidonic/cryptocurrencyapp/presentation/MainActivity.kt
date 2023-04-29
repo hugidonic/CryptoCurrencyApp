@@ -1,4 +1,4 @@
-package com.hugidonic.cryptocurrencyapp
+package com.hugidonic.cryptocurrencyapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hugidonic.cryptocurrencyapp.ui.theme.CryptoCurrencyAppTheme
+import com.hugidonic.cryptocurrencyapp.presentation.ui.theme.CryptoCurrencyAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.hugidonic.cryptocurrencyapp.ui.theme
+package com.hugidonic.cryptocurrencyapp.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
