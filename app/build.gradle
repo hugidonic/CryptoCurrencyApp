@@ -48,7 +48,7 @@ android {
 
 dependencies {
 //    Modules
-    implementation project(path: ":domain")
+    implementation project(path: ':domain')
     implementation project(path: ":data")
 
 //    Core
