@@ -9,7 +9,7 @@ import retrofit2.HttpException
 import java.io.IOException
 
 class GetCoinDetailsUseCase(private val coinRepository: CoinRepository) {
-    suspend operator fun invoke(coinId: String): Flow<Resource<CoinDetailsModel>> = flow {
+    operator fun invoke(coinId: String): Flow<Resource<CoinDetailsModel>> = flow {
         try {
             emit(Resource.Loading())
             val coinDetails = coinRepository.getCoinDetailsById(coinId=coinId)
