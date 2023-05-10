@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
 @HiltViewModel
-class CoinDetailsViewModel(
+class CoinDetailsViewModel @Inject constructor(
     private val getCoinDetailsUseCase: GetCoinDetailsUseCase,
     private val savedStateHandle: SavedStateHandle
 ): ViewModel() {
